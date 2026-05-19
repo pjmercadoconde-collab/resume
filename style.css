@@ -52,7 +52,6 @@ body {
 .header .role { font-size: 0.8rem; letter-spacing: 0.2em; text-transform: uppercase; color: #333333; margin-bottom: 4px; }
 .header .location { font-size: 0.72rem; color: #666; }
 
-/* TWO COLUMN BODY */
 .body {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -78,7 +77,6 @@ body {
   border-color: #e0e0e0;
 }
 
-/* SECTION */
 .section { margin-bottom: 24px; }
 .section:last-child { margin-bottom: 0; }
 
@@ -101,28 +99,23 @@ body {
 
 p.body-text { font-size: 0.75rem; line-height: 1.8; color: #333333; }
 
-/* BULLET LIST */
 ul.blist { list-style: none; display: flex; flex-direction: column; gap: 6px; }
 ul.blist li { font-size: 0.73rem; color: #333333; padding-left: 14px; position: relative; line-height: 1.5; }
 ul.blist li::before { content: '•'; position: absolute; left: 0; color: #111111; }
 
-/* EDU BLOCK */
 .edu-block { margin-bottom: 14px; }
 .edu-block:last-child { margin-bottom: 0; }
 .edu-school { font-size: 0.85rem; font-weight: bold; color: #111111 !important; margin-bottom: 2px; }
 .edu-detail { font-size: 0.7rem; color: #333333 !important; line-height: 1.5; }
 
-/* LANG */
 .lang-list { list-style: none; display: flex; flex-direction: column; gap: 7px; }
 .lang-list li { font-size: 0.73rem; color: #333333; display: flex; align-items: center; gap: 8px; }
 .lang-list li::before { content: ''; width: 6px; height: 6px; border-radius: 50%; background: #111111; flex-shrink: 0; }
 
-/* BOTTOM WRAP */
 .bottom-wrap {
   background: #e0e0e0;
 }
 
-/* PHOTOS SECTION */
 .photos-section {
   background: #e0e0e0;
   border-top: 2px solid #333;
@@ -177,7 +170,6 @@ ul.blist li::before { content: '•'; position: absolute; left: 0; color: #11111
   margin-top: 6px;
 }
 
-/* FOOTER */
 .footer {
   background: #d0d0d0;
   color: #444444;
